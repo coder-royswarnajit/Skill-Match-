@@ -1,282 +1,259 @@
-# Skill Swap Platform
+# 🔁 Skill Swap Platform
 
-A modern web application that enables users to list their skills and request others in return. Built with React, Node.js, and MongoDB.
+A modern full-stack web application that empowers users to exchange skills through a seamless and intuitive interface. Built with **React**, **Node.js**, and **MongoDB**.
+
+---
 
 ## 🚀 Features
 
-### User Features
-- **User Authentication**: Secure registration and login with JWT
-- **Profile Management**: Create and manage your profile with skills
-- **Skill Listing**: List skills you can offer and skills you want to learn
-- **User Discovery**: Browse and search for users by skills and location
-- **Swap Requests**: Create and manage skill swap requests
-- **Rating System**: Rate and review completed swaps
-- **Availability Scheduling**: Set your availability for skill exchanges
-- **Real-time Notifications**: Get notified about swap requests and updates
+### 👤 User Features
+- 🔐 **Authentication** – Secure sign-up/login using JWT
+- 🧾 **Profile Management** – Personalize your profile with skills and availability
+- 🎓 **Skill Listings** – Offer your skills and request those you want to learn
+- 🔍 **User Discovery** – Find users based on skills and location
+- 🔄 **Swap Requests** – Create, manage, and track skill exchange requests
+- ⭐ **Ratings & Reviews** – Share feedback after completed swaps
+- 🗓️ **Scheduling** – Manage availability for smooth coordination
+- 🔔 **Real-time Notifications** – Stay updated on swap activity
 
-### Admin Features
-- **User Management**: Monitor and manage user accounts
-- **Skill Moderation**: Approve or reject skill submissions
-- **Platform Analytics**: View platform statistics and reports
-- **Content Moderation**: Ban users who violate platform policies
-
-## 🛠️ Technology Stack
-
-### Frontend
-- **React 18** - Modern React with hooks and context
-- **Vite** - Fast build tool and development server
-- **Tailwind CSS** - Utility-first CSS framework
-- **React Router** - Client-side routing
-- **React Hook Form** - Form handling and validation
-- **Axios** - HTTP client for API calls
-- **React Hot Toast** - Toast notifications
-- **Lucide React** - Beautiful icons
-
-### Backend
-- **Node.js** - JavaScript runtime
-- **Express.js** - Web application framework
-- **MongoDB** - NoSQL database
-- **Mongoose** - MongoDB object modeling
-- **JWT** - JSON Web Tokens for authentication
-- **bcryptjs** - Password hashing
-- **Joi** - Request validation
-- **Multer** - File upload handling
-- **Winston** - Logging
-- **Helmet** - Security middleware
-- **CORS** - Cross-origin resource sharing
-
-### Additional Services
-- **Cloudinary** - Image storage (optional)
-- **Nodemailer** - Email service (optional)
-- **MongoDB Atlas** - Cloud database hosting
-
-## 📁 Project Structure
-
-```
-skill-swap-platform/
-├── frontend/                 # React frontend application
-│   ├── src/
-│   │   ├── components/       # Reusable React components
-│   │   ├── context/          # React context providers
-│   │   ├── hooks/            # Custom React hooks
-│   │   ├── pages/            # Page components
-│   │   ├── services/         # API service functions
-│   │   ├── styles/           # CSS and styling
-│   │   ├── utils/            # Utility functions
-│   │   ├── App.jsx           # Main app component
-│   │   └── main.jsx          # Application entry point
-│   ├── public/               # Static assets
-│   ├── package.json          # Frontend dependencies
-│   └── vite.config.js        # Vite configuration
-├── backend/                  # Node.js backend API
-│   ├── src/
-│   │   ├── controllers/      # API route controllers
-│   │   ├── middleware/       # Express middleware
-│   │   ├── models/           # MongoDB models
-│   │   ├── routes/           # API routes
-│   │   ├── services/         # Business logic services
-│   │   ├── utils/            # Utility functions
-│   │   └── app.js            # Express application
-│   ├── uploads/              # File upload directory
-│   ├── package.json          # Backend dependencies
-│   └── env.example           # Environment variables template
-└── docs/                     # Documentation
-    ├── API.md                # API documentation
-    ├── SETUP.md              # Setup guide
-    └── DEPLOYMENT.md         # Deployment guide
-```
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB (v4.4 or higher)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd skill-swap-platform
-   ```
-
-2. **Setup Backend**
-   ```bash
-   cd backend
-   npm install
-   cp env.example .env
-   # Edit .env with your configuration
-   npm run dev
-   ```
-
-3. **Setup Frontend**
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
-
-4. **Access the Application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
-
-## 📖 Documentation
-
-- **[API Documentation](./docs/API.md)** - Complete API reference
-- **[Setup Guide](./docs/SETUP.md)** - Detailed installation instructions
-- **[Deployment Guide](./docs/DEPLOYMENT.md)** - Production deployment guide
-
-## 🔧 Configuration
-
-### Environment Variables
-
-#### Backend (.env)
-```env
-# Server
-PORT=5000
-NODE_ENV=development
-
-# Database
-MONGODB_URI=mongodb://localhost:27017/skill-swap
-
-# JWT
-JWT_SECRET=your-super-secret-jwt-key
-JWT_EXPIRES_IN=7d
-
-# Frontend URL
-FRONTEND_URL=http://localhost:3000
-
-```
-
-#### Frontend (.env)
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-## 🎯 Core Features Implementation
-
-### User Authentication
-- JWT-based authentication
-- Password hashing with bcrypt
-- Protected routes
-- Token refresh mechanism
-
-### Profile Management
-- User profiles with skills
-- Profile photo upload
-- Availability scheduling
-- Public/private profile settings
-
-### Skill Swap System
-- Create swap requests
-- Accept/reject swaps
-- Track swap status
-- Rating and review system
-
-### Search and Discovery
-- User search by skills
-- Location-based filtering
-- Skill-based filtering
-- Pagination support
-
-### Admin Panel
-- User management
-- Skill moderation
-- Platform analytics
-- Report generation
-
-## 🔒 Security Features
-
-- JWT authentication
-- Password hashing
-- Input validation
-- Rate limiting
-- CORS protection
-- Helmet security headers
-- Environment variable protection
-
-## 🧪 Testing
-
-### Backend Testing
-```bash
-cd backend
-npm test
-```
-
-### Frontend Testing
-```bash
-cd frontend
-npm test
-```
-
-## 🚀 Deployment
-
-### Backend Deployment Options
-- Heroku
-- Railway
-- DigitalOcean App Platform
-- AWS Elastic Beanstalk
-
-### Frontend Deployment Options
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS S3 + CloudFront
-
-### Database
-- MongoDB Atlas (recommended)
-- Self-hosted MongoDB
-
-See [Deployment Guide](./docs/DEPLOYMENT.md) for detailed instructions.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- React team for the amazing framework
-- Vite team for the fast build tool
-- Tailwind CSS for the utility-first CSS framework
-- MongoDB team for the database
-- All contributors and supporters
-
-## 📞 Support
-
-If you have any questions or need help:
-
-1. Check the [documentation](./docs/)
-2. Search existing [issues](../../issues)
-3. Create a new issue with detailed information
-
-## 🔄 Roadmap
-
-### Planned Features
-- [ ] Real-time chat between users
-- [ ] Video call integration
-- [ ] Mobile app (React Native)
-- [ ] Advanced search filters
-- [ ] Skill verification system
-- [ ] Payment integration for premium features
-- [ ] Multi-language support
-- [ ] Dark mode theme
-- [ ] Push notifications
-- [ ] Social media integration
-
-### Performance Improvements
-- [ ] Database query optimization
-- [ ] Caching implementation
-- [ ] Image optimization
-- [ ] Code splitting
-- [ ] Lazy loading
+### 🛡️ Admin Features
+- 👥 **User Management** – Oversee and moderate platform users
+- 🛠️ **Skill Moderation** – Approve or reject skill submissions
+- 📊 **Platform Analytics** – Monitor usage and engagement metrics
+- 🚫 **Content Moderation** – Flag or ban inappropriate users
 
 ---
+
+## 🧰 Tech Stack
+
+### 🖥️ Frontend
+- [React 18](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- [Axios](https://axios-http.com/)
+- [React Hot Toast](https://react-hot-toast.com/)
+- [Lucide Icons](https://lucide.dev/)
+
+### ⚙️ Backend
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [JWT](https://jwt.io/)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [Joi](https://joi.dev/)
+- [Multer](https://github.com/expressjs/multer)
+- [Winston](https://github.com/winstonjs/winston)
+- [Helmet](https://helmetjs.github.io/)
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+### ☁️ Services
+- [Cloudinary](https://cloudinary.com/) – (Optional) Image storage
+- [Nodemailer](https://nodemailer.com/) – (Optional) Email service
+- [MongoDB Atlas](https://www.mongodb.com/atlas/database) – Cloud database hosting
+
+---
+
+## 📁 Folder Structure
+
+skill-swap-platform/
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── hooks/
+│ │ ├── pages/
+│ │ ├── services/
+│ │ ├── styles/
+│ │ ├── utils/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── public/
+│ └── vite.config.js
+├── backend/
+│ ├── src/
+│ │ ├── controllers/
+│ │ ├── middleware/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ ├── services/
+│ │ ├── utils/
+│ │ └── app.js
+│ ├── uploads/
+│ ├── package.json
+│ └── env.example
+├── docs/
+│ ├── API.md
+│ ├── SETUP.md
+│ └── DEPLOYMENT.md
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚡ Quick Start
+
+### ✅ Prerequisites
+- Node.js v16+
+- MongoDB v4.4+
+- npm or yarn
+
+### 🧩 Installation
+
+```bash
+# 1. Clone the repository
+git clone <repository-url>
+cd skill-swap-platform
+
+# 2. Setup Backend
+cd backend
+npm install
+cp env.example .env  # Fill in values
+npm run dev
+
+# 3. Setup Frontend
+cd ../frontend
+npm install
+npm run dev
+🔗 Frontend: http://localhost:3000
+
+🔗 Backend: http://localhost:5000
+
+⚙️ Configuration
+🔐 Backend .env
+env
+Copy
+Edit
+PORT=5000
+NODE_ENV=development
+MONGODB_URI=mongodb://localhost:27017/skill-swap
+JWT_SECRET=your-super-secret-jwt-key
+JWT_EXPIRES_IN=7d
+FRONTEND_URL=http://localhost:3000
+🌐 Frontend .env
+env
+Copy
+Edit
+VITE_API_URL=http://localhost:5000/api
+🧠 Core Modules
+🧾 User Authentication
+JWT + bcrypt for secure auth
+
+Token refresh support
+
+Protected API routes
+
+👤 Profile Management
+Custom skills
+
+Profile pictures (with Cloudinary)
+
+Availability scheduler
+
+🔄 Skill Exchange System
+Send/accept/reject swaps
+
+Swap history & reviews
+
+🔍 Search & Discovery
+Filter by skill/location
+
+Paginated results
+
+🛡️ Admin Panel
+Full platform oversight
+
+Analytics & moderation tools
+
+🔒 Security
+JWT-based auth
+
+Encrypted passwords
+
+Input validation with Joi
+
+Helmet + CORS
+
+Rate limiting (optional)
+
+🧪 Testing
+bash
+Copy
+Edit
+# Backend Tests
+cd backend
+npm test
+
+# Frontend Tests
+cd frontend
+npm test
+🚀 Deployment Options
+⚙️ Backend
+Heroku, Railway, DigitalOcean, AWS Beanstalk
+
+🌐 Frontend
+Vercel, Netlify, GitHub Pages, AWS S3 + CloudFront
+
+☁️ Database
+MongoDB Atlas (recommended)
+
+👉 See docs/DEPLOYMENT.md for setup instructions.
+
+📈 Roadmap
+✨ Upcoming Features
+ 💬 Real-time chat
+
+ 📹 Video call integration
+
+ 📱 Mobile app (React Native)
+
+ 🧠 Skill verification
+
+ 💳 Premium payments
+
+ 🌍 Multi-language support
+
+ 🌙 Dark mode
+
+ 🔔 Push notifications
+
+ 🤝 Social media logins
+
+🚅 Performance Improvements
+ Mongo query optimization
+
+ Redis caching
+
+ Lazy loading + code splitting
+
+ Image compression
+
+🤝 Contributing
+bash
+Copy
+Edit
+# 1. Fork the repository
+# 2. Create a branch: git checkout -b feature/your-feature
+# 3. Commit changes: git commit -m "Add your feature"
+# 4. Push branch: git push origin feature/your-feature
+# 5. Submit a Pull Request
+📄 License
+MIT License. See the LICENSE file for more info.
+
+🙌 Acknowledgments
+React, Vite, and Tailwind teams
+
+MongoDB for their developer-friendly platform
+
+Open-source community for continuous innovation
+
+🆘 Support
+Review the docs
+
+Browse issues
+
+Open a new issue with detailed info
