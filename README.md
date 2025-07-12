@@ -147,15 +147,6 @@ JWT_EXPIRES_IN=7d
 # Frontend URL
 FRONTEND_URL=http://localhost:3000
 
-# Optional Services
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-password
-
-CLOUDINARY_CLOUD_NAME=your-cloud-name
-CLOUDINARY_API_KEY=your-api-key
-CLOUDINARY_API_SECRET=your-api-secret
 ```
 
 #### Frontend (.env)
@@ -289,5 +280,3 @@ If you have any questions or need help:
 - [ ] Lazy loading
 
 ---
-
-**Made with ❤️ for the skill-sharing community** 
