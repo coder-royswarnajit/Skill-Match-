@@ -1,0 +1,32 @@
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:24:38"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-01.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:24:39"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:32:00"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-00.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:32:02"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:32:07"}
+{"cause":{"code":"ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR","library":"SSL routines","reason":"tlsv1 alert internal error"},"connectionGeneration":0,"level":"error","message":"Database connection error: 38260000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n","service":"skill-swap-api","stack":"MongoNetworkError: 38260000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n\n    at connectionFailureError (C:\\Users\\User\\Desktop\\skillswappro\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:367:20)\n    at TLSSocket.<anonymous> (C:\\Users\\User\\Desktop\\skillswappro\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:290:22)\n    at Object.onceWrapper (node:events:633:26)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-07-12 11:32:08"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:32:12"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-02.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:32:13"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:50:54"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-00.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:50:56"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:51:02"}
+{"cause":{"code":"ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR","library":"SSL routines","reason":"tlsv1 alert internal error"},"connectionGeneration":0,"level":"error","message":"Database connection error: 54190000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n","service":"skill-swap-api","stack":"MongoNetworkError: 54190000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1605:SSL alert number 80\n\n    at connectionFailureError (C:\\Users\\User\\Desktop\\skillswappro\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:367:20)\n    at TLSSocket.<anonymous> (C:\\Users\\User\\Desktop\\skillswappro\\backend\\node_modules\\mongodb\\lib\\cmap\\connect.js:290:22)\n    at Object.onceWrapper (node:events:633:26)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-07-12 11:51:03"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:51:13"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-00.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:51:15"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:51:22"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-00.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:51:24"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:57:15"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-01.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:57:17"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:57:20"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-02.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:57:21"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:58:34"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-02.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:58:35"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:58:39"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-01.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:58:41"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:58:47"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-00.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:58:49"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:58:52"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-02.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:58:53"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:59:01"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-01.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:59:02"}
+{"level":"info","message":"Server running on port 5000","service":"skill-swap-api","timestamp":"2025-07-12 11:59:08"}
+{"level":"info","message":"MongoDB Connected: ac-dtodx7k-shard-00-00.ltlwnmv.mongodb.net","service":"skill-swap-api","timestamp":"2025-07-12 11:59:09"}
